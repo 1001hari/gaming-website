@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,700;1,800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navber design start here */
+nav {
+    display: flex;
+    justify-content: space-around;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.logo-text {
+    display: flex;
+
+}
+
+.left-side {
+    margin-right: 20px;
+}
+
+.left-side img {
+    padding: 25px;
+    width: 50%;
+    height: auto;
+}
+
+.text-part h2 {
+    padding: 10px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+h2 span {
+    color: deeppink;
+
+}
+
+.menus-item {
+    padding: 25px;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+   
+
+}
+
+.menus-item ul {
+    display: flex;
+
+}
+
+.menus-item a {
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+
+.menus-item li {
+    list-style: none;
+
+}
+#about{
+    margin-top: 5px;
+}
+#dev{
+    margin-top: 5px;
+}
+
+.logo-part {
+    display: flex;
+    padding: 2px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.icon-set{
+    display: flex;
+    
+    /* justify-content: space-between; */
+    gap: 15px;
+}
