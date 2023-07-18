@@ -132,7 +132,6 @@ h2 span {
 
 .left-container .banner-para {
     text-align: center;
-    font-family: Work Sans;
     font-size: 95px;
     font-weight: 800;
     text-transform: uppercase;
@@ -150,8 +149,6 @@ h2 span {
 .sust{
     padding-top: 100px;
     
-    
-
 }
 .same-icon{
     width: 3%;
@@ -211,6 +208,8 @@ h2 span {
 
 
 /* responsive styles */
+
+/* for small devices */
 @media screen and (max-width:576px) {
 
     nav,
@@ -233,5 +232,50 @@ h2 span {
         /* margin-right: 50px; */
 
     }
+    .banner-container{
+        flex-direction: column-reverse;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+        
+    }
+    .left-container {
+        
+        width: 100%;
+        margin-top: 30px;
+    
+    }
+    .left-container h2 ,.left-container .banner-para{
+        text-align: center;
+        margin-right: 60px;
+    }
+    .list-set,.first-btn
+    {
+        margin-left: 50px;
+    }
 
+}
+
+/* for tablet devices */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .banner-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .left-container{
+        
+        width: 100%;
+        margin-left: 10px;
+    }
+    .list-set,.first-btn{
+        margin-left: 220px;
+    }
+
+    .right-container{
+        width: 100%;
+        margin-left: 100px;
+    }
+    
 }
