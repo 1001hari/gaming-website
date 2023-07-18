@@ -17,6 +17,9 @@ nav {
     justify-content: space-around;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    max-width: 100%;
+    min-height: auto;
+    
 }
 
 .logo-text {
@@ -96,4 +99,24 @@ h2 span {
     
     /* justify-content: space-between; */
     gap: 15px;
+}
+
+
+/* responsive styles */
+@media  screen and (max-width:576px) {
+     nav,.menus-item, .menus-item ul, .logo-part{
+        flex-direction: column;
+    }
+    .menus-item ul{
+        gap: 50px;
+    }
+    .left-side{
+        margin-left: 50px;
+    }
+    .text-part{
+        margin-top: 5px;
+        /* margin-right: 50px; */
+        
+    }
+    
 }
