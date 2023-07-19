@@ -35,7 +35,7 @@ nav {
     padding: 25px;
     width: 50%;
     height: auto;
-    
+
 }
 
 .text-part h2 {
@@ -468,20 +468,90 @@ h2 span {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 /* hover styles ends */
 
 
 /* footer styles */
 
-.head-part{
+footer {
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+    background-color: gray;
+}
+
+.head-part {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.last-logo img{
+
+.last-logo img {
     width: 50px;
 }
 
+
+.second-part ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.second-part li {
+    list-style: none;
+    margin-top: 30px;
+
+
+}
+
+
+
+.third-part {
+    margin-top: 30px;
+}
+
+.third-part img {
+    width: 50px;
+
+}
+
+.third-part ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.third-part li {
+    list-style: none;
+}
+
+.fourth-part {
+    margin-top: 30px;
+
+}
+
+.fourth-part ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.fourth-part li {
+    list-style: none;
+    
+
+}
+
+.last-sec{
+    margin-top: 30px;
+    text-align: center;
+}
 
 
 
@@ -502,7 +572,8 @@ h2 span {
     .download-part {
         flex-direction: column;
     }
-    nav{
+
+    nav {
         width: 100%;
     }
 
@@ -519,7 +590,8 @@ h2 span {
         /* margin-right: 50px; */
 
     }
-    .logo-part{
+
+    .logo-part {
         margin: auto;
     }
 
@@ -574,10 +646,10 @@ h2 span {
     }
 
     .text-container p {
-        margin-left: 30px; 
+        margin-left: 30px;
         text-align: center;
         margin: auto;
-        
+
     }
 
     .img-container {
@@ -594,13 +666,15 @@ h2 span {
         bottom: -40px;
 
     }
-    .bonous-part{
-    
+
+    .bonous-part {
+
         margin-top: 350px;
         display: grid;
-        grid-template-columns: repeat(3,1fr);
-        
+        grid-template-columns: repeat(3, 1fr);
+
     }
+
     .logo-card {
         width: 100%;
         margin-left: auto;
