@@ -242,8 +242,16 @@ h2 span {
 }
 
 .second-container {
+    display: flex;
     width: 100%;
-    margin-left: 120px;
+    margin: auto;
+    
+}
+.problem-container{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 20px;
 }
 
 .sec-img {
@@ -254,11 +262,42 @@ h2 span {
 
 }
 
-.play-button {
-    position: relative;
-    width: 50%;
+.problem-container p{
+    margin-top: 20px;
+    padding: auto;
 
 }
+
+.problem-container .sec-img{
+    display: block;
+
+}
+
+/* hover styles */
+
+  .play-button {
+    position: relative;
+    width: 100px;
+  }
+    .play-button img {
+        width: 50px;
+        height: auto;
+        background-color: white;
+        border-radius: 30px;
+    }
+    .play-button {
+        position: absolute;
+        right: 35%;
+        top: 145%;
+        text-align: center;
+        
+    
+    
+    }
+    
+    
+
+
 
 .play-button .text-part {
     font-size: 20px;
@@ -270,76 +309,17 @@ h2 span {
     -webkit-text-fill-color: transparent;
 
 }
-
-.play-button img {
-    width: 5%;
-    height: auto;
-    background-color: white;
-    border-radius: 30px;
-}
-
-.play-button {
-    position: absolute;
-    right: 15%;
-    top: 145%;
-    text-align: center;
-
-
-}
-
-.play-button {
+.problem-container:hover{
+    background-color: hotpink;
     display: block;
-
+    cursor: pointer;
+    /* border: 5px solid greenyellow; */
+    /* width: 25%;
+    height: 15%;
+    border-radius: 10px; */
 }
 
-.online-game .second-container:hover+.play-button img {
-    display: block;
-    color: red;
 
-
-
-}
-
-/* down part styles */
-.down-part {
-    margin-top: 10px;
-
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
-
-}
-
-.down-section {
-    color: #534C64;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 30px;
-
-
-
-
-}
-
-.first {
-    margin-left: 150px;
-}
-
-.second {
-    margin-left: 5px;
-    width: 300 px;
-}
-
-.third {
-    margin-right: 90px;
-
-}
-
-.fourth {
-    margin-right: 150px;
-}
-
-/* download section */
 .download-part {
     display: flex;
     justify-content: space-around;
@@ -694,6 +674,20 @@ footer {
         align-items: center;
         margin-left: 50px;
     }
+    .second-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .problem-container{
+        margin-left: 150px;
+        margin-bottom: 20px;
+    }
+
+    .play-button{
+        top:700%;
+    }
     
 
 
@@ -738,6 +732,24 @@ footer {
         margin-top: 300px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+    }
+    .second-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .problem-container{
+        margin-left: 150px;
+        margin-bottom: 20px;
+    }
+
+    .play-button{
+        top:720%;
+        left: 25%;
+    }
+    footer{
+        width: 100%;
     }
 
     
