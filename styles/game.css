@@ -346,13 +346,15 @@ h2 span {
     width: 80%;
     margin: 0px auto;
     height: 100vh;
+    background: #FFF;
 }
-.text-container{
+
+.text-container {
     margin-top: 200px;
 }
 
 .text-container span {
-    
+
     text-align: left;
 
     font-size: 48px;
@@ -362,6 +364,13 @@ h2 span {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.text-container h2 {
+
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
 }
 
 .download-part p {
@@ -394,10 +403,72 @@ h2 span {
     width: 200px;
     height: auto;
     position: absolute;
-    bottom:130px;
-    left:10px;
+    bottom: 130px;
+    left: 10px;
 }
 
+/* logo card design */
+
+.bonous-part {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    text-align: center;
+    max-width: 80%;
+    height: auto;
+    margin: 0px auto;
+    background: linear-gradient(90deg, rgba(167, 58, 114, 0.03) 0%, rgba(62, 37, 117, 0.03) 100%);
+
+}
+
+.logo-card {
+    /* border:2px solid red; */
+    width: 200px;
+    margin-left: 20px;
+    grid-auto-rows: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.logo-card img {
+    width: 20%;
+    height: auto;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+.logo-card span {
+    color: #0B0223;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 5px;
+
+
+}
+
+/* hover styles */
+.logo-card img {
+    display: block;
+
+
+
+}
+
+.logo-card:hover {
+    border: 2px solid #FF42A5;
+    color: #FF42A5;
+    border-radius: 20px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 
 
@@ -415,7 +486,8 @@ h2 span {
     nav,
     .menus-item,
     .menus-item ul,
-    .logo-part {
+    .logo-part,
+    .download-part {
         flex-direction: column;
     }
 
@@ -461,6 +533,50 @@ h2 span {
         margin-left: 50px;
     }
 
+    .download-part {
+        margin-top: 130px;
+        width: 100%;
+    }
+
+    .text-container {
+        width: 100%;
+        padding: 10px;
+
+    }
+
+    .text-container span {
+        margin-left: 40px;
+    }
+
+    .text-container h2 {
+        margin-left: 45px;
+        text-align: center;
+    }
+
+    .text-container p {
+        margin-left: 25px;
+        text-align: center;
+    }
+
+    .img-container {
+        width: 100%;
+    }
+
+    .img-container .first-pic {
+        width: 70%;
+        margin-left: 100px;
+        height: auto;
+    }
+
+    .img-container .second-pic {
+        bottom: -40px;
+
+    }
+
+
+
+
+
 }
 
 /* for tablet devices */
@@ -485,5 +601,16 @@ h2 span {
         width: 100%;
         margin-left: 100px;
     }
+
+    /* .img-container .first-pic{
+        width: 80%;
+        height: auto;
+    } */
+    .img-container .second-pic {
+        bottom: -200px;
+
+    }
+
+
 
 }
