@@ -141,16 +141,18 @@ h2 span {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.list-set{
+
+.list-set {
     margin-top: 20px;
     margin-left: 150px;
 }
 
-.sust{
+.sust {
     padding-top: 100px;
-    
+
 }
-.same-icon{
+
+.same-icon {
     width: 3%;
 }
 
@@ -175,12 +177,12 @@ h2 span {
     margin-left: 150px;
 }
 
-.second-btn{
+.second-btn {
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
     border-radius: 50px;
-    background-color:#4EC5F7;
+    background-color: #4EC5F7;
     padding: 10px 20px;
     margin-top: 30px;
     border: 0px;
@@ -192,11 +194,66 @@ h2 span {
     height: auto;
     margin-top: 70px;
 }
-.right-container img{
+
+.right-container img {
     width: 75%;
-   
+
 }
 
+/* online game styles */
+.online-game {
+    background: #FFF;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    /* border: 5px solid red; */
+    /* height: 300px; */
+    margin-top: 30px;
+}
+
+.online-head {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 40px;
+
+}
+
+.online-head>span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.online-para {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+}
+
+.second-container {
+    width: 100%;
+    margin-left: 120px;
+}
+
+.sec-img {
+    width: 300px;
+    height: 400px;
+    border-radius: 16px;
+    margin-left: 10px;
+    
+
+
+}
 
 
 
@@ -232,27 +289,32 @@ h2 span {
         /* margin-right: 50px; */
 
     }
-    .banner-container{
+
+    .banner-container {
         flex-direction: column-reverse;
         width: 100%;
         height: auto;
         justify-content: center;
         align-items: center;
         margin-left: 40px;
-        
+
     }
+
     .left-container {
-        
+
         width: 100%;
         margin-top: 30px;
-    
+
     }
-    .left-container h2 ,.left-container .banner-para{
+
+    .left-container h2,
+    .left-container .banner-para {
         text-align: center;
         margin-right: 60px;
     }
-    .list-set,.first-btn
-    {
+
+    .list-set,
+    .first-btn {
         margin-left: 50px;
     }
 
@@ -260,22 +322,25 @@ h2 span {
 
 /* for tablet devices */
 @media screen and (min-width:576px) and (max-width:992px) {
-    .banner-container{
+    .banner-container {
         flex-direction: column;
         gap: 30px;
     }
-    .left-container{
-        
+
+    .left-container {
+
         width: 100%;
         margin-left: 10px;
     }
-    .list-set,.first-btn{
+
+    .list-set,
+    .first-btn {
         margin-left: 220px;
     }
 
-    .right-container{
+    .right-container {
         width: 100%;
         margin-left: 100px;
     }
-    
+
 }
