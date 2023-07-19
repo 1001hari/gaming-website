@@ -250,9 +250,95 @@ h2 span {
     height: 400px;
     border-radius: 16px;
     margin-left: 10px;
+
+}
+
+.play-button {
+    position: relative;
+    width: 50%;
+
+}
+
+.play-button .text-part {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.play-button img {
+    width: 5%;
+    height: auto;
+    background-color:white;
+    border-radius: 30px;
+}
+
+.play-button {
+    position: absolute;
+    right: 15%;
+    top: 145%;
+    text-align: center;
+
+
+}
+.play-button {
+    display: block;
     
+}
+
+.online-game .second-container:hover + .play-button img{
+    display: block;
+    color: red;
+    background-color: #4EC5F7;
 
 
+
+
+
+
+}
+
+/* down part styles */
+.down-part {
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+
+.down-section {
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+
+
+
+
+}
+
+.first {
+    margin-left: 150px;
+}
+
+.second {
+    margin-left: 5px;
+    width: 300 px;
+}
+
+.third {
+    margin-right: 90px;
+
+}
+
+.fourth {
+    margin-right: 150px;
 }
 
 
