@@ -669,7 +669,7 @@ footer {
 
     .bonous-part {
 
-        margin-top: 350px;
+        margin-top: 400px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
 
@@ -679,6 +679,21 @@ footer {
         width: 100%;
         margin-left: auto;
     }
+    .second-part ul, .third-part ul{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+    .fourth-part ul{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+    
 
 
 
