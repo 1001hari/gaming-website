@@ -273,7 +273,7 @@ h2 span {
 .play-button img {
     width: 5%;
     height: auto;
-    background-color:white;
+    background-color: white;
     border-radius: 30px;
 }
 
@@ -285,18 +285,15 @@ h2 span {
 
 
 }
+
 .play-button {
     display: block;
-    
+
 }
 
-.online-game .second-container:hover + .play-button img{
+.online-game .second-container:hover+.play-button img {
     display: block;
     color: red;
-    background-color: #4EC5F7;
-
-
-
 
 
 
@@ -339,6 +336,66 @@ h2 span {
 
 .fourth {
     margin-right: 150px;
+}
+
+/* download section */
+.download-part {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    width: 80%;
+    margin: 0px auto;
+    height: 100vh;
+}
+.text-container{
+    margin-top: 200px;
+}
+
+.text-container span {
+    
+    text-align: left;
+
+    font-size: 48px;
+    font-weight: 700;
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.download-part p {
+    color: #534C64;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+
+
+}
+
+.text-container {
+    width: 50%;
+}
+
+.img-container {
+    width: 40%;
+    margin-top: 100px;
+    position: relative;
+}
+
+.img-container .first-pic {
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.img-container .second-pic {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    bottom:130px;
+    left:10px;
 }
 
 
