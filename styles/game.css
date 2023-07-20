@@ -657,6 +657,23 @@ footer {
         align-items: center;
         margin-left: 50px;
     }
+    .bonus-icon{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+        margin-left: 100px;
+    }
+
+    .image{
+        margin-bottom: 30px;
+    }
+    .online-para{
+        margin-left: 60px;
+    }
+    .online-head {
+        margin-left: 50px;
+    }
     
 
 }
@@ -666,6 +683,10 @@ footer {
     .banner-container {
         flex-direction: column;
         gap: 30px;
+    }
+    nav{
+        width: 100%;
+        margin-left: 70px;
     }
 
     .left-container {
@@ -697,10 +718,31 @@ footer {
         margin-top: 300px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        margin-left: 150px;
     }
     
     footer{
         width: 100%;
+        margin-left: 90px;
+    }
+
+    .online-head {
+        margin-left: 100px;
+    }
+    .online-para{
+        margin-left: 60px;
+    }
+
+    .bonus-icon{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        align-items: center;
+        margin-left: 200px;
+    }
+
+    .image{
+        margin-bottom: 30px;
     }
 
     
